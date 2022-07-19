@@ -1,12 +1,13 @@
-import { Component, Input, OnInit,  } from '@angular/core';
+import { Component, OnInit,Input } from '@angular/core';
 import { Content } from '../models/content';
 
 @Component({
-  selector: 'app-content-card',
-  templateUrl: './content-card.component.html',
-  styleUrls: ['./content-card.component.css'],
+  selector: 'app-detailcard',
+  templateUrl: './detailcard.component.html',
+  styleUrls: ['./detailcard.component.css']
 })
-export class ContentCardComponent implements OnInit {
+export class DetailcardComponent implements OnInit {
+
   @Input() BikesName?: Content;
   @Input() isLast?: boolean;
   
@@ -26,5 +27,5 @@ export class ContentCardComponent implements OnInit {
       this.BikesName?.id
     );
   }
- 
+
 }

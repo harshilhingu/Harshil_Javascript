@@ -8,6 +8,10 @@ import { ContentCardComponent } from './content-card/content-card.component';
 import { FilterdBike } from './pipes/filteringbikebytypes.pipe';
 import { FilteringBikeByAuthor } from './pipes/filteringbikesbyauthor.pipe';
 import { HighlightImportantDataDirective } from './highlight-important-data.directive';
+import { DetailedcontentComponent } from './detailedcontent/detailedcontent.component';
+import { SearchcontentComponent } from './searchcontent/searchcontent.component';
+import { DetailcardComponent } from './detailcard/detailcard.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +21,10 @@ import { HighlightImportantDataDirective } from './highlight-important-data.dire
     FilterdBike,
     FilteringBikeByAuthor,
     HighlightImportantDataDirective,
+    DetailedcontentComponent,
+    SearchcontentComponent,
+    DetailcardComponent,
+    PagenotfoundComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+.bike-search {
+    padding: 16px 10px 20px 10px;
+    text-align: center;
+    
+
+}
+.bike-search label {
+    display: inline-block;
+    padding: 16px 10px 20px 10px;
+    margin-bottom: 20px;
+}
+
+.bike-search button{
+    display: inline-block;
+    padding: 16px 10px 20px 10px;
+    margin-bottom: 50px;
+}

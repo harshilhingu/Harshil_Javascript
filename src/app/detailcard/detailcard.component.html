@@ -1,17 +1,18 @@
 <div *ngIf="BikesName">
-  <a
-    [routerLink]="['/details',BikesName.id]"
-    class="title"
-    appHighlightImportantData
-    highlightType="title"
-    colour="red">
-    {{ BikesName.title }}
-  </a>
   <img
     *ngIf="BikesName.imageLink; else defaultBikesImage"
     [src]="BikesName.imageLink"
     (click)="displayAuthorAndId()"
   />
+
+  <div
+    class="title"
+    appHighlightImportantData
+    highlightType="title"
+    colour="red"
+  >
+    {{ BikesName.title }}
+  </div>
 
   <div appHighlightImportantData [highlightType]="'type'" class="type">
     {{ BikesName.type }}
