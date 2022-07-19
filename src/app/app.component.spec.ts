@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'H_Patel_MyFavTheme'`, () => {
+  it(`should have as title 'H_Hingu_MyFavTheme'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('H_Patel_MyFavTheme');
+    expect(app.title).toEqual('H_Hingu_MyFavTheme');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('H_Patel_MyFavTheme app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('H_Hingu_MyFavTheme app is running!');
   });
 });
