@@ -19,7 +19,7 @@ export class AppComponent {
       id: 0,
       title: 'CBR 10000RR',
       body: "steel",
-      imageLink: "https://cdni.autocarindia.com/ExtraImages/20200730063629_2020-Honda-CBR1000RR-R-Fireblade-SP.jpg",
+      imageLink: "https://wallpaperaccess.com/cbr-bike",
       type: "Race bike",
     };
     this.myList.addContent(contentitem);
@@ -27,7 +27,7 @@ export class AppComponent {
       id: 1,
       title: 'BMW',
       body: "steel",
-      imageLink: "https://img.etimg.com/thumb/msid-75572296,width-640,resizemode-4,imgsize-507941/bmw-ninet.jpg",
+      imageLink: "https://wallpaperaccess.com/cbr-bike",
       type: "Race bike",
 
     };
@@ -36,7 +36,7 @@ export class AppComponent {
       id: 2,
       title: 'Duggatti',
       body: "steel and alumminium",
-      imageLink: "https://bd.gaadicdn.com/processedimages/hero-motocorp/hero-motocorp-splendor/source/hero-motocorp-splendor62863b5bef195.jpg",
+      imageLink: "https://wallpaperaccess.com/cbr-bike",
       type: "play",
  
     };
@@ -45,7 +45,7 @@ export class AppComponent {
       id: 3,
       title: 'splender',
       body: "steel",
-      imageLink: "https://images.hindustantimes.com/auto/img/2021/01/13/600x338/Royal_Enfiled_Classic_350_1606287446412_1606287452623_1610507147713.jpg",
+      imageLink: "https://wallpaperaccess.com/cbr-bike",
       type: "old man",
 
     };
