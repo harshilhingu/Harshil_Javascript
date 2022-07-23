@@ -10,7 +10,7 @@ import { BikersService } from './services/bikers.service';
 })
 export class AppComponent {
 
-  title = 'Bike Champions';
+  title = 'Bike';
   private _individualBiker: Content = DEFAULTBIKES;
   public get individualBiker(): Content {
     return this._individualBiker;
@@ -25,17 +25,17 @@ export class AppComponent {
 
   ngOnInit(): void {
     // getContentItem test
-    this.BikerServices.getContentItem(1).subscribe(BikeChampionsSingleItem => {
-      console.log("App component - Got the content item: ", BikeChampionsSingleItem);
-      this.individualBiker = BikeChampionsSingleItem;
+    this.BikerServices.getContentItem(1).subscribe(BikeSingleItem => {
+      console.log("App component - Got the content item: ", BikeSingleItem);
+      this.individualBiker = BikeSingleItem;
     });
 
   }
 
   checkForIdInList(idValue: string): void {
-    this.BikerServices.getContentItem(Number(idValue)).subscribe(BikeChampionsSingleItem => {
-      console.log("App component - Got the content item AGAIN: ", BikeChampionsSingleItem);
-      this.individualBiker = BikeChampionsSingleItem;
+    this.BikerServices.getContentItem(Number(idValue)).subscribe(BikeSingleItem => {
+      console.log("App component - Got the content item AGAIN: ", BikeSingleItem);
+      this.individualBiker = BikeSingleItem;
     });
   }
   }
