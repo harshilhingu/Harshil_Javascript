@@ -20,9 +20,9 @@ export class ContentCardComponent implements OnInit {
   }
   displayAuthorAndId(): void {
     console.log(
-      'Chess Player Author: ',
+      'Author: ',
       this.BikesName?.author,
-      ', Chess Player ID: ',
+      ', ID: ',
       this.BikesName?.id
     );
   }
