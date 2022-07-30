@@ -12,6 +12,7 @@ import { DetailedcontentComponent } from './detailedcontent/detailedcontent.comp
 import { SearchcontentComponent } from './searchcontent/searchcontent.component';
 import { DetailcardComponent } from './detailcard/detailcard.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { TopNavComponent } from './top-nav/top-nav.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     SearchcontentComponent,
     DetailcardComponent,
     PagenotfoundComponent,
+    TopNavComponent,
   ],
   imports: [
     BrowserModule,
